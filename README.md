@@ -24,6 +24,6 @@ I used regularization, dropout, and early stopping to avoid over-fitting.
 
 The accuracy achieved,  77.5%, is 15% better than one would get by just guessing "not duplicate" for all the questions.  While I was pleased to get the Siamese network architecture working, I find the over-all accuracy a little disappointing.  It is only slightly better than one can get with pretty simple approaches just using SpaCy's similarity method, for example.
 
-To improve results further, I would like to try using ELMO or BERT, although BERT seems to require significant computational resources.
+To improve results further, I would like to try using ELMO, which provides a context-dependent representation as opposed to what the simple embeddings provide.  Another more sophisticated approach would be to use an attention-based method such as BERT, although BERT seems to require significant computational resources.
 
 A note for anyone wanting to work on this data set - it is from a Kaggle contest.  There are a lot of complaints from the contest participants because it turns out that one can boost one's score significantly by looking at non-NLP factors such as the number of times a question appears in the data set. 
