@@ -22,7 +22,7 @@ I used regularization, dropout, and early stopping to avoid over-fitting.
 
 ## Conclusions
 
-The accuracy achieved,  77.5%, is 15% better than one would get by just guessing "not duplicate" for all the questions.  While I was pleased to get the Siamese network architecture working, I find the over-all accuracy a little disappointing.  It is only slightly better than one can get with pretty simple approaches just using SpaCy's similarity method, for example.
+The accuracy achieved,  77.5%, is 15% better than one would get by just guessing "not duplicate" for all the questions.  I was pleased to get the Siamese network architecture working; the over-all accuracy is several percent higher than one can get with simple approaches just using SpaCy's similarity method.
 
 To improve results further, I would like to try using ELMO, which provides a context-dependent representation as opposed to what the simple embeddings provide.  Another more sophisticated approach would be to use an attention-based method such as BERT, although BERT seems to require significant computational resources.
 
